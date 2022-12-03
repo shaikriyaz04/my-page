@@ -1,0 +1,100 @@
+ul li
+{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 8px;
+    position: relative;
+left: 60%;
+top: 20%;
+color: rgb(129, 119, 119);
+ font-family: 'Poppins';
+font-style: normal;
+}
+.logo
+{ 
+    margin: 0px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
+.container
+{
+    display: inline-block;
+    position: relative;
+}
+.nav-buttn
+{
+    position: absolute;
+    float: right;
+    top:1%;
+    right: 10%;
+    color: white;
+    background-color: rgb(101, 29, 183);;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.nav-but
+{
+    position: absolute;
+    float: left;
+    right: 5%;
+    left: 10%;
+    bottom: 20%;
+    color: white;
+    background-color:rgb(101, 29, 183);;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+.description
+{
+    font-size: 18px;
+    position: absolute;
+    top: 54%;
+    left: 10%;
+    color: rgb(82, 40, 24);
+
+}
+
+.heading-text
+{
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+}
+.picture
+{
+    position: absolute;
+    right: 2%;
+    left: 50%;
+    top: 23%;
+
+}
+
+{
+    display: inline-block;
+}
+
+.grow-list ul li a.active
+.grow-list ul li a:hover
+{
+text-decoration: none;
+   color: rgb(110, 36, 36);
+    
+}
