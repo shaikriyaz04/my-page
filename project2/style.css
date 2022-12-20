@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.logo {
+  display: block;
+  height: 32px;
+  width: 110px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 38px;
+  height: 10vh;
+}
+
+section[aria-label="navbar"] {
+  background-color: #000;
+}
+
+.line {
+  position: relative;
+  left: -130px;
+  width: 1px;
+  height: 40px;
+  background: #fff;
+}
+
+.button-small,
+.button-large {
+  background-color: #ba0bf4;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  height: 36px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  min-width: 160px;
+  padding: 0 16px 0 16px;
+ 
+}
+
+.button-large {
+  letter-spacing: 0.9;
+  font-weight: 700;
+  height: 50px;
+  width: 250px;
+}
+
+.list {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  font-size: 16px;
+  gap: 65px;
+  position: relative;
+  left: -250px;
+}
+
+.hero {
+  text-align: center;
+  height: 90vh;
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.hero-heading {
+  line-height: 80px;
+  letter-spacing: -2px;
+  position: relative;
+  left: 320px;
+  width: 950px;
+  color: #fff;
+  font-size: 77px;
+  padding-top: 77px;
+}
+
+.hero-description {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+/*Hover effect*/
+
+ button:hover  {
+
+  background-color: rgb(143, 4, 148);
+  
+ }
+
+
+ div .grow-list .list li{
+
+  padding: 2px 4px 2px 4px;
+  border-radius: 10px;
+  
+   }
+ 
+   div .grow-list .list li:hover{
+   color: rgb(112, 105, 105);
+  
+   }
+  
+   div .grow-list .list :first-child::after{
+
+ content: " ⌄";
+ color : rgb(101, 101, 101);
+ position : relative;
+ left : 6px;
+bottom: 2px;
+   }
+
