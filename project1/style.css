@@ -1,0 +1,163 @@
+
+
+*{
+    margin: 10px;
+    border: border-box;
+    
+  
+}
+
+/* nav bar items */
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+
+
+ul :first-child{
+
+    color: #000000;
+}
+
+ul li
+{
+    
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+    position: relative;
+    right: 60px;
+    color: rgb(129, 119, 119);
+    font-family: 'Poppins';
+  
+}
+
+/* nav bar */
+
+.container
+{
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    
+}
+
+
+/* contact us */
+.nav-button
+{
+    font-size: 14px;
+    color: white;
+    background-color:rgb(88, 59, 173);
+    font-family: 'Poppins';
+    padding : 14px 35px 14px 35px;
+    border-radius: 15px;
+    position: relative;
+    left: 130px;
+
+}
+
+
+/* services */
+.banner-container button
+{
+    position: relative;
+    float: left;
+    left: 36px;
+    top: 280px;
+    color: white;
+    background-color:rgb(88, 59, 173);
+    font-family: 'Poppins';
+    padding : 14px 35px 14px 35px;
+    border-radius: 15px;
+    font-size: 14px;
+    
+}
+
+
+.description
+{
+
+    height: 20px;
+    width: 300px;
+    font-family: 'poppins';
+    font-size: 12px;
+    position: relative;
+    top: 220px;
+    left: 30px;
+    color: rgb(141, 137, 137);
+
+}
+
+
+.heading-text
+{
+    height: 60px;
+    width: 400px;
+    font-size: 55px;
+    position: relative;
+    left:25px;
+    top:15px;
+    font-family: 'poppins';
+    color: rgb(67, 41, 92);
+
+}
+
+.heading-text span{
+
+    color: rgb(76, 50, 151);
+
+}
+
+
+
+/* logo */
+.navbar-container img{
+
+width: 125px;
+height: 38px;
+position: relative;
+left: 5px;
+
+}
+
+/* picture */
+
+.banner-container img
+{
+    width: 900px;
+    height: 520px;
+    position: absolute;
+    top: 86px ;
+    left: 520px;
+    
+}
+
+
+nav{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between ;
+padding: 20px 20px 20px 20px;
+
+}
+
+/* hover effects*/
+
+
+nav .grow-list ul li:hover  {
+
+color: rgb(0, 0, 0);
+
+}
+
+button:hover
+{
+
+background-color: rgb(41, 18, 109);
+}
