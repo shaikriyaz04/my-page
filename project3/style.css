@@ -1,0 +1,246 @@
+*{
+    margin: 14px;
+   
+}
+
+/*Nav bar items*/
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.list {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+font-size: 20px;
+font-weight: bold;
+list-style: none;
+font-family: "Orbitron", Helvetica, sans-serif;
+
+
+}
+
+.list :nth-child(3){
+  order: 1;
+}
+.list :nth-child(2){
+  order: 2;
+}
+
+.list :nth-child(4){
+  order: 3;
+}
+.list :nth-child(5){
+  order: 4;
+}
+
+.search-icon{
+  
+    position: relative;
+    top:2px;
+    left:110px
+}
+
+.navbar-container img{
+    position: relative;
+    top: 10px;
+    right: 80px;
+    width: 160x;
+    height: 42px;
+}
+
+.nav-button{
+  font-family:"Poppins", Helvetica, sans-serif ;
+  font-size: 16px;
+  color: rgb(94, 90, 90);
+    background-color: white;
+    padding: 5px 40px;
+    border: 2.5px solid black;
+    border-radius: 9px;
+    position: relative;
+    bottom:85px;
+    left:160px
+}
+
+.hero-container div button{
+  position: absolute;
+  left: 900px;
+  top:600px ;
+  padding: 10px 30px;
+  color: black;
+  background-color: white;
+  border: 2.4px solid black;
+  border-radius: 10px;
+  
+  }
+  
+
+/*Picture*/
+  
+.square img{
+
+ height: 300px;
+ width: 300px;
+ position: relative;
+ left: 220px;
+ top:120px;
+
+}
+
+
+.hero-container div img{
+  width: 380px;  
+  height: 460px;
+position: absolute;
+top: 150px;
+left: 150px;
+
+}
+
+
+/*Text*/
+
+h1
+{
+position: absolute;
+left: 650px;
+top:270px ;
+font-size: 48px;
+font-family: "Orbitron", Helvetica, sans-serif;
+
+}
+p{
+    position: absolute;
+left: 700px;
+top:360px ;
+color: darkgrey;
+font-family: "Poppins", Helvetica, sans-serif;
+text-align: center;
+font-size: 12px;
+width: 540px;
+}
+
+.globe{
+
+    position: absolute;
+    left: 800px;
+    top:115px ;
+}
+
+
+.button-join,
+.button-email {
+  font-size: 15px;
+  font-family: "Orbitron", Helvetica, sans-serif;
+  font-weight: 800;
+  
+}
+
+.button-email {
+  color: rgb(59, 59, 59);
+  border-color: rgb(59, 59, 59);
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+}
+
+.contact-heading{
+  position: absolute;
+  left: 905px;
+  top: 580px;
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: gray;
+}
+
+.hero-container .button-join{
+
+    position: absolute;
+    left: 980px;
+    top: 500px;
+    background-color: #000;
+    color: white;
+  
+
+}
+
+.hero-container .button-email{
+  color: rgb(113, 110, 110);
+  position: absolute;
+  left: 780px;
+  top: 500px;
+}
+
+
+
+
+button {
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    font-family: "Poppins", Helvetica, sans-serif;
+   
+  }
+
+
+  .icons{
+position: absolute;
+left: -65px;
+top: 442px;
+  }
+
+  .icons span img{
+  
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 900px;
+    }
+    .icons{
+      display: grid;
+      grid-template-columns: 44px 44px 44px 44px;
+      }
+  
+  .star img[alt="start-pattern"]
+{
+  width: 45px;
+  height: 45px;
+position: relative;
+left: 200px;
+top: 50px;
+  }
+
+.star:nth-child(2){
+position: absolute;
+top: 110px;
+right: 500px;
+}
+
+
+/*Hover effects*/
+
+
+.list li:hover{
+    font-weight: bold;
+    color: #000000;
+    font-size: 0.8889em;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    padding-bottom: 0.125em;``
+    transition: border-bottom-color 50ms linear 0s;
+}
+
+
+.hero-container .button-join:hover{
+background-color: rgb(57, 53, 53);
+}
+.hero-container .button-email:hover{
+  background-color: rgb(210, 207, 207);
+}
+
