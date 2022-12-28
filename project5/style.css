@@ -1,0 +1,114 @@
+*{
+    margin: 15px;
+    font-family:"Poppins" ;
+
+}
+body{
+    background-color: #f0f3f4;
+}
+
+
+/* nav bar section */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    gap: 30px;
+    font-weight: 510;
+}
+
+
+/* left content */
+
+.bg img{
+width: 40%;
+height: 30%;
+z-index: -1;
+position: relative;
+left: 300px;
+bottom: 46px;
+}
+ .left-content{
+    width: 50%;
+    height: 40%;
+ position : absolute;
+top: 60px;
+left: 60px;
+ }
+ h1{
+    font-size: 75px;
+ }
+ p{
+    font-size: 19px;
+    color: gray;
+ }
+
+.topAngle{
+ position: relative;
+ top: 38px;
+ right: 20px;
+}
+.bottomAngle{
+    position: relative;
+  left: 610px;
+  bottom: 140px;
+   }
+   button{
+    padding: 20px 40px;
+    background-color: #5ab781;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 34px;
+    border: none;
+   }
+
+   /* right content */
+
+    .greenbox {
+       position: absolute;
+       top: 160px;
+       left: 140px;
+       z-index: -2;
+   }
+.yellowbox{
+    position: absolute;
+   top: 200px;
+    left: 230px;
+    z-index: -1;
+}
+
+   .right-content{
+position: absolute;
+left: 800px;
+top: 30px;
+   }
+
+  .right-content .doctor{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+  }
+   .mouse{
+position: absolute;
+top: 530px;
+left: -60px;
+
+   }
+
+
+   /* hover effect */
+  button:hover{
+background-color: green;
+  }
+
+  ul :first-child{
+     color: #7cbd8b;
+    }
