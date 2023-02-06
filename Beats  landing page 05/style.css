@@ -1,0 +1,291 @@
+*{
+    margin: 10px 40px;
+    font-family: "poppins";
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgba(22,22,23,258);
+
+}
+
+
+/* nav bar */
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+nav , ul{
+    display: flex;
+   margin-right: 20px;
+
+}
+.button {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border: none;
+}
+
+ul,.button{
+    list-style: none;  
+}
+
+/* 
+header */
+
+.mainimage{
+    position: relative;
+bottom: 45px;
+}
+
+.on-ear{
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    width: 350px;
+    height: 70px;
+}
+
+.more-info{
+background-color: rgb(39, 39, 39);
+color: white;
+padding: 10px 20px;
+border: none;
+}
+
+.Buy-noww{
+    width: 40px;
+}
+
+
+
+.add-bag{
+ width: 260px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border: none;
+}
+
+
+
+.main-header h1, .main-header h5{
+    color: white;
+ }
+
+ .main-header h1{
+    font-size: 60px;
+ }
+ .main-header h5{
+    font-size: 20px;
+ }
+
+ .main-header p{
+    color: gray;
+    max-width: 400px;
+ }
+
+.main-header{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 240px;
+    left: 650px;
+}
+ 
+
+/* social media logos */
+.social-media{
+
+    margin-top: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* head phone items */
+
+.head-phones{
+   margin-top: 100px;
+
+display: flex;
+flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.bluetooth img{
+
+    position: relative;
+    left: 1px;
+}
+.item-1{
+
+    position: relative;
+    left: 40px;
+}
+
+.content-1 span img {
+position: relative;
+right: 65px;
+   
+}
+.specsImage{
+
+    position: relative;
+    top: 40px;
+}
+
+.head-phones p{
+
+    color: gray;
+}
+.head-phones .text-1{
+    color: white;
+}
+.content-1{
+    display: flex;
+   
+}
+
+/* gadzet */
+
+.gadzet{
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+.gadzet p{
+font-size: 20px;
+    color: gray;
+    max-width: 450px;
+
+}
+
+
+.lorem{
+margin-top: 150px;
+    max-width: 290px;
+}
+
+.Buy-now{
+
+display: flex;
+background-color:  rgb(27, 27, 27);
+justify-content: center;
+align-items: center;
+margin-top: 90px;
+height: 400px;
+
+}
+
+/* grids */
+
+ .grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+row-gap: 125px;
+ }
+
+ .grid h5{
+position: relative;
+bottom: 23px;
+color: gray;
+font-size: 20px;
+ }
+
+
+ .grid span{
+    background-color: rgb(49, 49, 49);
+    width: 300px;
+    height:310px;
+border-radius: 20px;
+ }
+
+ .bagg{
+    float: right;
+    position: relative;
+ bottom: 80px;
+ right: 60px;
+ height:30px;
+ width: 30px;
+ background-color: black;
+ }
+
+
+ .head-phonees{
+    position: relative;
+    bottom: 50px;
+ }
+
+
+.subscribe :placeholder-shown{
+   color: rgb(255, 255, 255);
+    background-color: rgb(30, 30, 30);
+ height: 60px;
+ width: 400px;
+}
+
+.subsrb{
+    position: relative;
+    bottom: 70px;
+    left: 180px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+justify-content: center;
+background-color: black;
+height: 40px;
+width: 198px;
+}
+
+/* footer */
+ .footer{
+   margin-top: 100px;
+    display: flex;
+    flex-direction:row;
+ }
+ .footer .unorderd-list {
+max-width: 100px;
+    
+    display: flex;
+    flex-direction: column;
+
+ }
+ .subscribe{
+    display: flex;
+    flex-direction: column;
+    border: none;
+ }
+ .social-media-1 img{
+
+    display: flex;
+   
+ }
+
+
+/* hover effects */
+ ul li:hover{
+
+    color: rgb(164, 164, 164);
+    transition: all ease 0.2s;
+    scale: 1.1;
+ }
+ button:hover{
+
+    background-color: rgb(65, 65, 65);
+    transition: all ease 0.8s;
+    scale: 1.1;
+
+ }
+ .head-phonees:hover{
+
+    transition: all ease 0.4s;
+    scale: 1.5;
+ }
