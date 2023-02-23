@@ -1,2 +1,2 @@
 ## OUTPUT
-[click here for calculater](https://calculater-solution.netlify.app/)
+[click here for calculator](https://calculater-solution.netlify.app/)
